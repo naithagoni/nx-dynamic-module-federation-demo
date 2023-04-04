@@ -17,7 +17,7 @@
           "error",
           {
             "type": "element",
-            "prefix": "remote-product-app",
+            "prefix": "remote",
             "style": "kebab-case"
           }
         ]

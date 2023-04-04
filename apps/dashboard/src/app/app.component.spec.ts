@@ -1,22 +1,22 @@
-import { fakeAsync, TestBed, tick } from "@angular/core/testing";
-import { AppComponent } from "./app.component";
-import { NxWelcomeComponent } from "./nx-welcome.component";
-import { RouterTestingModule } from "@angular/router/testing";
-import { Router } from "@angular/router";
+import { fakeAsync, TestBed, tick } from '@angular/core/testing';
+import { Router } from '@angular/router';
+import { RouterTestingModule } from '@angular/router/testing';
+import { AppComponent } from './app.component';
+import { DashboardOverviewComponent } from './components/dashboard-overview/dashboard-overview.component';
 
-describe("AppComponent", () => {
+describe('AppComponent', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       imports: [
         RouterTestingModule.withRoutes([
-          { path: "", component: NxWelcomeComponent },
+          { path: '', component: DashboardOverviewComponent },
         ]),
       ],
-      declarations: [AppComponent, NxWelcomeComponent],
+      declarations: [AppComponent, DashboardOverviewComponent],
     }).compileComponents();
   });
 
-  it("should create the app", () => {
+  it('should create the app', () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
     expect(app).toBeTruthy();
@@ -25,18 +25,18 @@ describe("AppComponent", () => {
   it(`should have as title 'dashboard'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual("dashboard");
+    expect(app.title).toEqual('dashboard');
   });
 
-  it("should render title", fakeAsync(() => {
+  it('should render title', fakeAsync(() => {
     const fixture = TestBed.createComponent(AppComponent);
     const router = TestBed.inject(Router);
-    fixture.ngZone?.run(() => router.navigate([""]));
+    fixture.ngZone?.run(() => router.navigate(['']));
     tick();
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector("h1")?.textContent).toContain(
-      "Welcome dashboard"
+    expect(compiled.querySelector('h1')?.textContent).toContain(
+      'Welcome dashboard'
     );
   }));
 });

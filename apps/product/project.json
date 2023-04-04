@@ -2,7 +2,7 @@
   "name": "product",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "projectType": "application",
-  "prefix": "remote-product-app",
+  "prefix": "remote",
   "sourceRoot": "apps/product/src",
   "tags": [],
   "targets": {

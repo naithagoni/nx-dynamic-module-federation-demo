@@ -17,7 +17,7 @@
           "error",
           {
             "type": "element",
-            "prefix": "host-dashboard-app",
+            "prefix": "host",
             "style": "kebab-case"
           }
         ]

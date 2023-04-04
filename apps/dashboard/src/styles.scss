@@ -1,1 +1,30 @@
-/* You can add global styles to this file, and also import other style files */
+html {
+  -webkit-text-size-adjust: 100%;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  line-height: 1.5;
+}
+body {
+  font-family: inherit;
+  line-height: inherit;
+  margin: 0;
+  background-color: #141414;
+  color: #fff;
+}
+
+span {
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.header {
+  background-color: #0a0a0a;
+  color: #adadad;
+
+  &:hover {
+    background: #1f1f1f;
+    color: #7f85f5;
+  }
+}

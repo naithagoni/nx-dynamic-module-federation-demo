@@ -1,7 +1,7 @@
 import { Component } from "@angular/core";
 
 @Component({
-  selector: "host-dashboard-app-root",
+  selector: "host-root",
   templateUrl: "./app.component.html",
   styleUrls: ["./app.component.scss"],
 })

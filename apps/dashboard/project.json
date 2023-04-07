@@ -15,10 +15,19 @@
         "main": "apps/dashboard/src/main.ts",
         "polyfills": ["zone.js"],
         "tsConfig": "apps/dashboard/tsconfig.app.json",
+        "inlineStyleLanguage": "scss",
         "assets": [
           "apps/dashboard/src/favicon.ico",
-          "apps/dashboard/src/assets"
+          "apps/dashboard/src/assets",
+          {
+            "glob": "**/*",
+            "input": "libs/assets/src/lib/assets/",
+            "output": "./assets/"
+          }
         ],
+        "stylePreprocessorOptions": {
+          "includePaths": ["libs/themes"]
+        },
         "styles": ["apps/dashboard/src/styles.scss"],
         "scripts": [],
         "customWebpackConfig": {

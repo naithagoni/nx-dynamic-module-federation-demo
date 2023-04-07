@@ -20,6 +20,12 @@
             "prefix": "lib",
             "style": "kebab-case"
           }
+        ],
+        "@nrwl/nx/enforce-module-boundaries": [
+          "error",
+          {
+            "allowCircularSelfDependency": true
+          }
         ]
       },
       "extends": [

@@ -1,9 +1,25 @@
 @import './colors';
 
-$font-size-primary: 1.2rem;
-$font-weight-primary: 600;
-$line-height-primary: 1.3333;
+$text-color-primary: $color-gray-3 !default;
+$text-color-secondary: $color-white !default;
 
-$font-size-secondary: 14px;
-$font-weight-secondary: 400;
-$line-height-secondary: 1.4286;
+$background-color-primary: $color-dark-3 !default;
+
+$font-size-primary: 1.2rem !default;
+$font-weight-primary: 400 !default;
+$line-height-primary: 1.3333 !default;
+
+$font-size-secondary: 12px !default;
+$font-weight-secondary: 600 !default;
+$line-height-secondary: 1.8rem !default;
+
+$font-size-tertiary: 1.4rem !default;
+$font-weight-tertiary: 700 !default;
+$line-height-tertiary: 1.4286 !default;
+
+// Header colors
+$header-color: $text-color-primary !default;
+$header-background-color: $color-dark-1 !default;
+
+$header-color--hover: $color-blue-2 !default;
+$header-background-color--hover: $color-dark-6 !default;

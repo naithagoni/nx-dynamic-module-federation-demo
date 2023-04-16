@@ -10,7 +10,7 @@ import { ProductOverviewComponent } from './components/product-overview/product-
 @NgModule({
   declarations: [ProductOverviewComponent],
   imports: [
-    CommonModule,
+    // CommonModule,
     RouterModule.forChild(featuresRoutes),
     ComponentLibModule,
   ],

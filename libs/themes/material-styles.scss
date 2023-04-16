@@ -1,18 +1,4 @@
-@import './styles//variables';
 // @import '~@angular/material/prebuilt-themes/indigo-pink.css';
-
-// span {
-//   font-weight: 400;
-//   font-size: 1.125rem;
-//   line-height: 1.75rem;
-// }
-
-.header {
-  color: $header-color;
-  background-color: $header-background-color;
-
-  &:hover {
-    color: $header-color--hover;
-    background: $header-background-color--hover;
-  }
-}
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
+// @import '../node_modules/@angular/material/prebuilt-themes/indigo-pink.css';
+// @import 'node_modules/@angular/material/prebuilt-themes/indigo-pink.css';

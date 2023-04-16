@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "license": "MIT",
   "scripts": {
-    "start": "nx serve dashboard --open"
+    "start": "nx serve dashboard --open",
+    "build": "nx run component-lib:build"
   },
   "private": true,
   "devDependencies": {

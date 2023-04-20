@@ -20,13 +20,13 @@
           "apps/dashboard/src/favicon.ico",
           "apps/dashboard/src/assets",
           {
-            "input": "libs/component-lib/src/assets",
+            "input": "libs/assets",
             "glob": "**/*",
             "output": "assets/"
           }
         ],
         "stylePreprocessorOptions": {
-          "includePaths": ["libs/component-lib/src/themes"]
+          "includePaths": ["libs/themes"]
         },
         "styles": [
           "apps/dashboard/src/styles.scss",

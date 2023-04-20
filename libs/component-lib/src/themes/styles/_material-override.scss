@@ -1,0 +1,6 @@
+@import './styles//variables';
+
+.mat-toolbar {
+  background: $header-background-color !important;
+  color: $header-color !important;
+}

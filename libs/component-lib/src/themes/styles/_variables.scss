@@ -18,8 +18,9 @@ $font-weight-tertiary: 700 !default;
 $line-height-tertiary: 1.4286 !default;
 
 // Header colors
-$header-color: $text-color-primary !default;
+$header-color: $color-white !default;
 $header-background-color: $color-dark-1 !default;
+$header-color--hover: $text-color-primary !default;
 
 $header-color--hover: $color-blue-2 !default;
 $header-background-color--hover: $color-dark-6 !default;

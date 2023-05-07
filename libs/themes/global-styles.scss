@@ -9,3 +9,15 @@
     background: $header-background-color--hover;
   }
 }
+
+.links {
+  color: rgb(255, 255, 255);
+  padding-right: 2rem;
+  padding-left: 2rem;
+  background-color: rgb(41, 41, 41);
+  border-color: rgb(102, 102, 102);
+  line-height: 1.15;
+  border-radius: 4px;
+  font-size: 1.4rem;
+  font-weight: 600;
+}

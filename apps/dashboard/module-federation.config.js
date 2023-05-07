@@ -1,4 +1,7 @@
 module.exports = {
-  name: "dashboard",
+  name: 'dashboard',
   remotes: [],
+  library: {
+    type: 'module',
+  },
 };

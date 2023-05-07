@@ -3,4 +3,7 @@ module.exports = {
   exposes: {
     './Module': 'apps/product/src/app/features/features.module.ts',
   },
+  library: {
+    type: 'module',
+  },
 };

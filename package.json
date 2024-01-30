@@ -4,7 +4,8 @@
   "license": "MIT",
   "scripts": {
     "start": "nx serve dashboard --open",
-    "build": "nx run component-lib:build"
+    "build": "nx run component-lib:build",
+    "watch": "nx run-many --target=serve --projects=dashboard,product --parallel"
   },
   "private": true,
   "devDependencies": {
@@ -60,6 +61,7 @@
     "@angular/platform-browser": "~15.2.0",
     "@angular/platform-browser-dynamic": "~15.2.0",
     "@angular/router": "~15.2.0",
+    "@angular/material": "~15.2.0",
     "@monorepo-lib/my-component-lib": "~1.1.2",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",

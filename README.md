@@ -12,4 +12,13 @@ This project explains how to create micro-frontends with dynamic module federati
 
 1. `git clone` [nx-dynamic-module-federation-demo](https://github.com/naithagoni/nx-dynamic-module-federation-demo.git).
 2. `npm i`
-3. `npm run start`
+3. `npm run watch`
+
+## Further Improvements
+
+#### Establish communicattion:
+- In a Micro Frontends architecture using Module Federation, communication between the host(container) (_dashboard_) and a remote (_product_) can be established in several ways:.
+  1. **Shared Angular Services:** - If both apps are Angular-based, create a shared Angular service in a library. Use Angular's dependency injection mechanism to provide and use these services across both host and remote apps.
+  2. **State Management Libraries(Global store):** - Use state management libraries like NgRx, Redux, or Zustand to manage a shared state. This can be combined with Module Federation's shares to ensure a single state management instance.
+  3. **Web Components:**
+  4. **Module Federation Exposes and Shares:** - The host and remote apps can correctly expose and share modules, components, or services as needed. You can expose certain services or components from a 'product' app that the host app(_dashboard_) can dynamically load and use.
